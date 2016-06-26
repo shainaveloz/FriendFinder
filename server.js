@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.text());
 app.use(bodyParser.json({type:'application/vnd.api+json'}));
 
-require('./app/routing/api-routes.js')(app);
+// require('./app/routing/api-routes.js')(app);
 
 app.get('/', function(req, res){
     //res.send("Welcome to the Friend Finder Page!")
